@@ -1,0 +1,100 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-family: Arial ;
+    background-color: #eb6b34;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#inicio {
+    text-align: center;
+    padding: 50px;
+}
+
+#inicio h2 {
+    color: #000;
+}
+
+#inicio p {
+    color: #333;
+    font-weight: bold;
+}
+
+#inicio a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+ /*Menu estilos*/
+
+ #Menu{
+    text-align: center;
+    padding: 50px;
+ }
+
+ .menu-item{
+    margin-bottom: 30px;
+ }
+
+ .menu-item img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.Preço {
+    font-weight: bold;
+    color: #fff;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+
+#Contato{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+address{
+    margin: 10px;
+}
